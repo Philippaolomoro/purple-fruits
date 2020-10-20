@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Purple Fruits Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 id="title"></h1>
+        <p id="description">Thank you for taking time to help us improve our services</p>
+    </header>
+    <main id="main">
+        <form action="#" id="survey-form">
+            <div class="">
+                <label for="name" id="name-label" class="spacing">Name</label>
+                <input type="text" name="" id="name" class="text-holder" placeholder="Enter your name">
+            </div>
+            <div class="">
+                <label for="email" id="email-label" class="spacing">Email</label>
+                <input type="email" name="" id="email" class="text-holder" placeholder="Enter your email">
+            </div>
+            <div class="">
+                <label for="number" id="number-label" class="spacing">Age (optional)</label>
+                <input type="number" name="" id="number" class="text-holder" placeholder="Enter your age" min="10" max="100">
+            </div>
+            <div class="">
+                <label for="dropdown" class="spacing">Which option best describes your role?</label>
+                <select name="dropdown" id="dropdown" class="text-holder">
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </div>
+            <div class="">
+                <p class="normal-text">Would you recommend purple fruits to a friend?</p>
+                <label for="definitely"><input type="radio" name="options" id="definitely" class="radio">Definitely</label>
+                <label for="maybe"><input type="radio" name="options" id="maybe" class="radio">Maybe</label>
+                <label for="notsure"><input type="radio" name="options" id="notsure" class="radio">Not sure</label>
+            </div>
+            <div class="">
+                <label for="" class="spacing">What is your favourite feature of purple fruits?</label>
+                <select name="dropdown2" id="dropdown2" class="text-holder">
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </div>
+            <div>
+                <p class="normal-text">What would you like to see improved? <span>(check all that apply)</span></p>
+                <label for=""><input type="checkbox" name="" id="" class="checkbox"></label>
+                <label for=""><input type="checkbox" name="" id="" class="checkbox"></label>
+                <input type="checkbox" name="" id="" class="checkbox">
+                <label for=""></label>
+                <input type="checkbox" name="" id="" class="checkbox">
+                <label for=""></label>
+                <input type="checkbox" name="" id="" class="checkbox">
+                <label for=""></label>
+                <input type="checkbox" name="" id="" class="checkbox">
+                <label for=""></label>
+            </div>
+            <div class="">
+                <label for="textarea" class="spacing">Any comments or sugestions?</label>
+                <textarea name="comment" id="textarea" class="text-holder" placeholder="Enter your comments here..."></textarea>
+            </div>
+            <button type="submit" id="button" class="text-holder">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
